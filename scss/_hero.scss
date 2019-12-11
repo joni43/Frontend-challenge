@@ -1,0 +1,22 @@
+.hero {
+    background-image: url("/images/bg-header-mobile.png");
+    background-size: cover;
+    background-position: center top;
+
+    @media screen and (min-width:700px) {
+        background-image: url("/images/bg-header-desktop.png");
+    }
+    h1 {
+
+        font-size:2.5rem;
+
+    
+    }
+    &__logo {
+
+    }
+
+    &__subheadline {
+
+    }
+}
